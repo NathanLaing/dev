@@ -4,6 +4,7 @@
     "license": "MIT",
     "scripts": {},
     "private": true,
+    "type": "module",
     "dependencies": {
         "@angular/animations": "~17.0.0",
         "@angular/common": "~17.0.0",
