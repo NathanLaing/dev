@@ -6,5 +6,6 @@ module.exports = async function () {
     console.log('\nSetting up...\n');
 
     // Hint: Use `globalThis` to pass variables to global teardown.
+    // @ts-ignore
     globalThis.__TEARDOWN_MESSAGE__ = '\nTearing down...\n';
 };
